@@ -1,0 +1,37 @@
+{
+  "name": "@codility/eslint-config-codility",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Codility/eslint-config-codility.git"
+  },
+  "author": "Tomasz Netczuk tomasz.netczuk@codility.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": ">=7",
+    "eslint": ">=4",
+    "eslint-config-prettier": ">=2",
+    "eslint-plugin-prettier": ">=2",
+    "eslint-plugin-react": ">=7",
+    "prettier": ">=1.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.3.0",
+    "eslint-config-prettier": "2.3.0",
+    "eslint-plugin-prettier": "2.1.2",
+    "eslint-plugin-react": "7.1.0",
+    "prettier": "1.5.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "yarn lint -- --fix"
+  },
+  "description": "ESLint config used in Codility",
+  "keywords": [
+    "eslint",
+    "lint",
+    "config"
+  ]
+}
