@@ -11,8 +11,8 @@ Codility's shared ESLint config.
 'use strict';
 
 module.exports = {
-  extends: ['codility'],
-}
+  extends: ['@codility/eslint-config-codility'],
+};
 ```
 4. Add `scripts` to your `package.json`:
 ```
