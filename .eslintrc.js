@@ -127,7 +127,7 @@ module.exports = {
     'no-warning-comments': 0,
     'no-with': 2,
     radix: 2,
-    'require-await': 1,
+    'require-await': 0,
     'vars-on-top': 0,
     yoda: 1,
 
