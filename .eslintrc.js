@@ -192,5 +192,6 @@ module.exports = {
     'react/no-unescaped-entities': 0,
     'react/jsx-key': 0,
     'react/jsx-no-target-blank': 0,
+    'react/prop-types': 1,
   },
 };
