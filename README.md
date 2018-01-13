@@ -21,3 +21,18 @@ module.exports = {
 ```
 5. Run lint with `yarn lint`
 6. Let the tool fix your code: `yarn lint:fix`
+
+## Warnings vs errors rationale
+
+Rules for setting up the rules:
+
+- 0 (off):
+  - we don't care about the rule
+  - we really don't
+- 1 (warn):
+  - the code can run, but we don't want it on production
+  - stylistic errors
+- 2 (error):
+  - the code can't run
+  - the code can run, but the behaviour might be unexpected
+  - the code can run, but it contains a typo for sure
