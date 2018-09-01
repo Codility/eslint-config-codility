@@ -8,7 +8,7 @@ Codility's shared ESLint config.
 2. Install peer dependencies and optional dependencies if needed
 3. Add `.eslintrc.js` file:
   * For the vanilla JS version use this:
-    ```
+  ```
   /* eslint-disable strict */
 
   'use strict';
@@ -18,7 +18,7 @@ Codility's shared ESLint config.
   };
   ```
   * For the React version use this:
-    ```
+  ```
   /* eslint-disable strict */
 
   'use strict';
