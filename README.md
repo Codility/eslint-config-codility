@@ -7,26 +7,26 @@ Codility's shared ESLint config.
 1. Install the package: `yarn add @codility/eslint-config-codility --dev --exact`
 2. Install peer dependencies and optional dependencies if needed
 3. Add `.eslintrc.js` file:
-  * For the vanilla JS version use this:
-  ```
-  /* eslint-disable strict */
+    * For the vanilla JS version use this:
+        ```
+        /* eslint-disable strict */
 
-  'use strict';
+        'use strict';
 
-  module.exports = {
-      extends: ['@codility/eslint-config-codility'],
-  };
-  ```
-  * For the React version use this:
-  ```
-  /* eslint-disable strict */
+        module.exports = {
+          extends: ['@codility/eslint-config-codility'],
+        };
+        ```
+    * For the React version use this:
+        ```
+        /* eslint-disable strict */
 
-  'use strict';
+        'use strict';
 
-  module.exports = {
-      extends: ['@codility/eslint-config-codility/react'],
-  };
-  ```
+        module.exports = {
+          extends: ['@codility/eslint-config-codility/react'],
+        };
+        ```
 4. Add `scripts` to your `package.json`:
 ```
 "lint": "eslint .",
