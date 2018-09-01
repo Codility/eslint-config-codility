@@ -10,7 +10,6 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 2017,
-
     sourceType: 'module',
   },
   parser: 'babel-eslint',
@@ -24,7 +23,7 @@ module.exports = {
   plugins: ['prettier', 'react'],
   rules: {
     'prettier/prettier': [
-      'error',
+      1,
       {
         printWidth: 100,
         singleQuote: true,
