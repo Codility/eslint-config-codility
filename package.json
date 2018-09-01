@@ -2,6 +2,11 @@
   "name": "@codility/eslint-config-codility",
   "version": "1.0.2",
   "main": "index.js",
+  "files": [
+    "/.eslintrc.js",
+    "/index.js",
+    "/react.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:Codility/eslint-config-codility.git"
