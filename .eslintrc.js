@@ -4,11 +4,8 @@
 
 module.exports = {
   root: true,
-  extends: ['plugin:react/recommended', 'prettier', 'prettier/react'],
+  extends: ['prettier'],
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
     ecmaVersion: 2018,
     sourceType: 'module',
   },
@@ -20,7 +17,7 @@ module.exports = {
   globals: {
     window: true,
   },
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
       1,
@@ -184,13 +181,5 @@ module.exports = {
     'require-yield': 1,
     'sort-imports': 0,
     // 'symbol-description': 0,
-
-    'react/react-in-jsx-scope': 0,
-
-    'react/no-children-prop': 0,
-    'react/no-unescaped-entities': 0,
-    'react/jsx-key': 0,
-    'react/jsx-no-target-blank': 0,
-    'react/prop-types': 1,
   },
 };
