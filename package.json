@@ -1,6 +1,6 @@
 {
   "name": "@codility/eslint-config-codility",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
   "files": [
     "/.eslintrc.js",
