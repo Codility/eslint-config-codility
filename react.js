@@ -6,7 +6,7 @@ const eslintrc = require('./.eslintrc');
 
 module.exports = {
   ...eslintrc,
-  extends: [...eslintrc.extends, 'plugin:react/recommended', 'prettier/react'],
+  extends: [...eslintrc.extends, 'plugin:react/recommended'],
   parserOptions: {
     ...eslintrc.parserOptions,
     ecmaFeatures: {
